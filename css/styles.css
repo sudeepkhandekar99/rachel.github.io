@@ -105,3 +105,49 @@ figcaption{
 .project .button {
     margin-top: 10px;
 }
+
+footer {
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 50px;
+        line-height: 130%;
+    }
+    
+    nav {
+        background-color: #DBEBF4;
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+    }
+    
+    nav ul li {
+        display: flex;
+        margin: 0 auto;
+        padding: 0;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 10px;
+        /* font-weight: bold; */
+    }
+    
+    nav ul {
+        display: flex;
+        align-items: wrap; /* Default */
+        justify-content: space-between;
+        width: 100%;
+        /* background: #cacaca; */
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        top:10px
+    }
+  }
