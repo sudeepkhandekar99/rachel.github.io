@@ -41,9 +41,13 @@ nav ul {
 }
 
 header{
-    top: 110px;
+    top: 70px;
     position: relative;
     margin-bottom: 220px;
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -145px;
 }
 
 h1 {
@@ -68,6 +72,12 @@ ul li{
 
 figcaption{
     font-size: 10px;
+}
+
+.intro-img{
+    box-shadow: 1px 2px 30px rgba(0,0,0,0.4);
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 
