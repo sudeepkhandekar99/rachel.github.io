@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,23 +30,32 @@
 
   <!-- HEADER -->
   <header>
-    <h1>hi, i'm<br />rachel johnson</h1>
-    <ul class = "skills-list">
-      <li>Artist</li>
-      <li>Illustrator</li>
-      <li>Law graduate</li>
-    </ul>
-    <a href="#">find me here</a>
-
-    <figure>
-      <img src="img/jane.jpg" alt="Rachel Johnson">
-      <figcaption>catfish catfish catfish</figcaption>
-    </figure>
+    <div class="container">
+      <div class="row">
+        <!-- Left -->
+        <div class="col-sm">
+          <h1>hi, i'm<br />rachel johnson</h1>
+          <ul>
+            <li>Artist</li>
+            <li>Illustrator</li>
+            <li>Law graduate</li>
+          </ul>
+          <a href="#" class="button">find me here</a>
+        </div>
+        <!-- Right -->
+        <div class="col-sm">
+          <figure>
+            <img src="img/jane.jpg" alt="Rachel Johnson">
+            <figcaption>catfish catfish catfish</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
   </header>
 
   <!-- SKILLS -->
   <section>
-    <ul>
+    <ul class="skills-list">
       <li>Artist</li>
       <li>Illustrator</li>
       <li>Law graduate</li>
@@ -55,31 +65,48 @@
   <!-- PROJECTS -->
   <!-- Project 1 -->
   <section>
-    <figure>
-      <img src="img/cosmetics.jpg" alt="Cosemetics">
-      <figcaption>Image caption</figcaption>
-      </h2>
-    </figure>
+    <div class="container">
+      <div class="row">
+        <!-- Left -->
+        <div class="col-sm">
+          <figure>
+            <img src="img/cosmetics.jpg" alt="Cosemetics">
+            <figcaption>Image caption</figcaption>
+            </h2>
+          </figure>
+        </div>
+        <!-- Right -->
+        <div class="col-sm">
+          <h2>The Masked<br />Man</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta mollitia sit perspiciatis non
+            placeat sunt
+            vel vero consectetur libero.</p>
 
-    <h2>The Masked<br />Man</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta mollitia sit perspiciatis non placeat sunt
-      vel vero consectetur libero.</p>
-
-    <a href="#">read more</a>
+          <a href="#">read more</a>
+        </div>
   </section>
 
   <!-- Project 2 -->
   <section>
-    <h2>The Masked<br />Man</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta mollitia sit perspiciatis non placeat sunt
-      vel vero consectetur libero.</p>
+    <div class="container">
+      <div class="row">
+        <!-- Left -->
+        <div class="col-sm">
+          <h2>The Masked<br />Man</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dicta mollitia sit perspiciatis non
+            placeat sunt
+            vel vero consectetur libero.</p>
 
-    <a href="#">read more</a>
-    <figure>
-      <img src="img/dashboard-app.jpg" alt="dashboard-app">
-      <figcaption>Image caption</figcaption>
-      </h2>
-    </figure>
+          <a href="#">read more</a>
+        </div>
+        <!-- Right -->
+        <div class="col-sm">
+          <figure>
+            <img src="img/dashboard-app.jpg" alt="dashboard-app">
+            <figcaption>Image caption</figcaption>
+            </h2>
+          </figure>
+        </div>
   </section>
 
   <!-- FOOTER -->
