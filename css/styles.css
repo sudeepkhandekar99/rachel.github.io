@@ -31,6 +31,7 @@ nav ul li {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 14px;
+
     /* font-weight: bold; */
 }
 
@@ -38,6 +39,15 @@ nav ul {
     margin: 0 auto;
     text-align: center;
     padding: 30px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover {
+    text-decoration: underline;
 }
 
 header{
@@ -81,6 +91,12 @@ p {
     margin-top: 40px;
     display: inline-block;
     border-radius: 20px;
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.button:hover {
+    background: black;
+    color: white;
 }
 
 figcaption{
@@ -114,10 +130,21 @@ footer h2 {
     font-size: 20px;
 }
 
+.right-alignment {
+    text-align: right;
+}
+
+li.empty {
+    width: 90px;
+    border-top: 1px solid black;
+    top: -5px;
+    position: relative;
+}
+
 @media only screen and (max-width: 480px) {
     h1 {
         font-size: 50px;
-        line-height: 130%;
+        line-height: 100%;
     }
     
     nav {
@@ -142,12 +169,31 @@ footer h2 {
         align-items: wrap; /* Default */
         justify-content: space-between;
         width: 100%;
-        /* background: #cacaca; */
         margin: 0;
         padding: 0;
     }
 
     header {
         top:10px
+    }
+
+    .button {
+        border: 1px solid black;
+        text-decoration: none;
+        color: black;
+        padding: 5px 10px;
+        margin-top: 0px;
+        display: inline-block;
+        border-radius: 20px;
+        font-size: 14px;
+    }
+
+    footer {
+        margin: 0px auto;
+        width: 85%;
+    }
+
+    .right-alignment {
+        text-align: center;
     }
   }
