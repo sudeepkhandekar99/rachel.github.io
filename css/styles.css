@@ -197,3 +197,22 @@ li.empty {
         text-align: left;
     }
   }
+
+  /* new stuff */
+
+.headings {
+    text-align: center;
+    background-color: seagreen;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.sub-headings {
+    text-decoration-line: underline; 
+    margin: 2px;
+}
+
+.info {
+    margin: 1px 1px; padding: 1px 1px; 
+    color:maroon;
+}
