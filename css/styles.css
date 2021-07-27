@@ -202,17 +202,18 @@ li.empty {
 
 .headings {
     text-align: center;
-    background-color: seagreen;
-    width: 30%;
+    background-color: rgb(68, 180, 117);
+    width: 50%;
     margin: 0 auto;
 }
 
 .sub-headings {
-    text-decoration-line: underline; 
     margin: 2px;
 }
 
 .info {
+    text-decoration-line: overline;
+    text-decoration-line: underline;
     margin: 1px 1px; padding: 1px 1px; 
     color:maroon;
 }
