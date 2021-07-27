@@ -196,6 +196,10 @@ li.empty {
     .right-alignment {
         text-align: left;
     }
+
+    .bottles_img{
+        width: 50%;
+    }    
   }
 
   /* new stuff */
@@ -224,11 +228,9 @@ li.empty {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 30px;
-    padding-bottom: 10px;
 }
 
 .bottles_img{
-    margin-bottom: 30px;
+    margin: 30px;
 }
 
