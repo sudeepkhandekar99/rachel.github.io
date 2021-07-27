@@ -212,8 +212,23 @@ li.empty {
 }
 
 .info {
-    text-decoration-line: overline;
     text-decoration-line: underline;
     margin: 1px 1px; padding: 1px 1px; 
     color:maroon;
 }
+
+/* CARDS */
+.bottles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+
+.bottles_img{
+    margin-bottom: 30px;
+}
+
