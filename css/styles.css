@@ -94,6 +94,7 @@ p {
     transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
+
 .button:hover {
     background: black;
     color: white;
@@ -170,12 +171,21 @@ li.empty {
 }
 
 .bottles_img{
-    margin: 30px;
+    margin: 20px auto;
+    height: 250px;
+}
+
+.canvas-work {
+    margin: 30px auto;
+    width: 60%;
+}
+
+.bottles_img{
+    margin: 20px auto;
     height: 250px;
 }
 
 .caution {
-    width: 95%; 
     padding: 30px; 
     color: maroon;
     background: #DBEBF4;
@@ -231,6 +241,10 @@ li.empty {
         font-size: 14px;
     }
 
+    .back {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
     footer {
         margin: 0px auto;
         width: 85%;
@@ -241,7 +255,8 @@ li.empty {
     }
 
     .bottles_img{
-        width: 50%;
+        width: 40%;
+        margin-left: 10px;
         height: auto;
     }    
   }

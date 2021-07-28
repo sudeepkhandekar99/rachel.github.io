@@ -1,0 +1,62 @@
+<!-- Project 3 -->
+  <section class="project blue">
+    <div class="container">
+      <div class="row">
+        <!-- Left -->
+        <div class="col-sm">
+          <figure>
+            <img src="img/2020.jpeg" alt="Cosemetics">
+            <figcaption class="right-alignment">December 2020</figcaption>
+            </h2>
+          </figure>
+        </div>
+        <!-- Right -->
+        <div class="col-sm">
+          <h2 class="sub-headings">2020: Pondering/ Breaking Back/ Stop ‘n’ Stare</h2>
+          <p class="info">acrylic paints on canvas board</p>
+
+          <a href="https://www.instagram.com/p/CPFLTcqptm5/" class="button">read more</a>
+        </div>
+  </section>
+
+  <!-- Project 4 -->
+  <section class="project">
+    <div class="container">
+      <div class="row">
+        <!-- Left -->
+        <div class="col-sm right-alignment">
+          <h2 class="sub-headings">“W.I.P.” - a self portrait </h2>
+          <p class="info">acrylic paints on canvas board</p>
+
+          <a href="https://www.instagram.com/p/CHSvsxRpAEA/" class="button">read more</a>
+        </div>
+        <!-- Right -->
+        <div class="col-sm">
+          <figure>
+            <img src="img/rae.jpeg" alt="dashboard-app">
+            <figcaption class="right-alignment">July 2020 </figcaption>
+            </h2>
+          </figure>
+        </div>
+  </section>
+
+  <!-- Project 5 -->
+  <section class="project blue">
+    <div class="container">
+      <div class="row">
+        <!-- Left -->
+        <div class="col-sm">
+          <figure>
+            <img src="img/supper.jpeg" alt="Cosemetics">
+            <figcaption class="right-alignment">June 2018</figcaption>
+            </h2>
+          </figure>
+        </div>
+        <!-- Right -->
+        <div class="col-sm">
+          <h2 class="sub-headings">Connie Porter’s Abstract Watercolor Painting of the Last Supper</h2>
+          <p class="info">acrylic paints on streched canvas</p>
+
+          <a href="https://www.instagram.com/p/CPFLTcqptm5/" class="button">read more</a>
+        </div>
+  </section>
