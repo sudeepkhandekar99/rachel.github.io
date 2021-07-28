@@ -141,6 +141,49 @@ li.empty {
     position: relative;
 }
 
+  /* new stuff */
+
+  .headings {
+    text-align: center;
+    background-color: rgb(68, 180, 117);
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sub-headings {
+    margin: 2px;
+}
+
+.info {
+    text-decoration-line: underline;
+    margin: 1px 1px; padding: 1px 1px; 
+    color:maroon;
+}
+
+/* CARDS */
+.bottles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bottles_img{
+    margin: 30px;
+    height: 250px;
+}
+
+.caution {
+    width: 95%; 
+    padding: 30px; 
+    color: maroon;
+    background: #DBEBF4;
+    margin-top: 0;
+} 
+
+
+
 @media only screen and (max-width: 480px) {
     h1 {
         font-size: 50px;
@@ -199,38 +242,9 @@ li.empty {
 
     .bottles_img{
         width: 50%;
+        height: auto;
     }    
   }
 
-  /* new stuff */
 
-.headings {
-    text-align: center;
-    background-color: rgb(68, 180, 117);
-    width: 50%;
-    margin: 0 auto;
-}
-
-.sub-headings {
-    margin: 2px;
-}
-
-.info {
-    text-decoration-line: underline;
-    margin: 1px 1px; padding: 1px 1px; 
-    color:maroon;
-}
-
-/* CARDS */
-.bottles {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.bottles_img{
-    margin: 30px;
-}
 
