@@ -244,10 +244,6 @@ li.empty {
     .back {
         margin-top: 10px;
         margin-bottom: 0px;
-        position: fixed;
-        position: fixed;
-        z-index: 999;
-        display: none;
     }
     footer {
         margin: 0px auto;
