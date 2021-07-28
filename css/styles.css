@@ -1,5 +1,5 @@
 body {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Catamaran', monospace;
     font-size: 15px;
 }
 
@@ -177,7 +177,7 @@ li.empty {
 
 .canvas-work {
     margin: 30px auto;
-    width: 70%;
+    width: 50%;
 }
 
 .bottles_img{
@@ -258,7 +258,11 @@ li.empty {
         width: 40%;
         margin-left: 10px;
         height: auto;
-    }    
+    } 
+    
+    .canvas-work {
+        width: 70%;
+    }
   }
 
 
