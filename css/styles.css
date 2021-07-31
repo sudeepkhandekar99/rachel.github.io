@@ -202,7 +202,7 @@ li.empty {
     padding:10px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 770px) {
     h1 {
         font-size: 50px;
         line-height: 100%;
@@ -272,8 +272,9 @@ li.empty {
     }
 
     .carousel-inner-div {
-        width: 100%;
+        width: 60%;
         height: auto;
+        margin: 0 auto;
     }
   }
 
