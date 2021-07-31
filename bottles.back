@@ -7,3 +7,22 @@
     <img class="bottles_img" src="img/5.jpg">
     <img class="bottles_img" src="img/4.jpg">
   </div>
+
+
+  <div class="canvas-work">
+    <figure>
+      <img src="img/2020.jpeg">
+      <figcaption>2020: Pondering/ Breaking Back/ Stop ‘n’ Stare | Acrylic paints on canvas board | Decemember 2020
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="img/rae.jpeg">
+      <figcaption>“W.I.P.” - a self portrait | Acrylic paints on canvas board | July 2020</figcaption>
+    </figure>
+    <figure>
+      <img src="img/supper.jpeg">
+      <figcaption><span style="color: maroon;">No copyright infringement intended |</span>Connie Porter’s Abstract Water
+        Colour Painting of The Last Supper | Acrylic paints on stretched canvas | June 2018
+      </figcaption>
+    </figure>
+  </div>

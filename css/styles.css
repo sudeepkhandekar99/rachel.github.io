@@ -146,7 +146,7 @@ li.empty {
 
   .headings {
     text-align: center;
-    background-color: rgb(68, 180, 117);
+    font-family: 'Inknut Antiqua', serif;
     width: 50%;
     margin: 0 auto;
 }
@@ -197,10 +197,15 @@ li.empty {
 }
 
 .carousel-inner-div {
-    width: 20%;
-    height: auto;
-    padding:10px;
+    max-width: 20%;
+    margin: 0 auto;
 }
+
+.bottlework {
+    max-width: 40%;
+    margin: 0px auto;
+}
+
 
 @media only screen and (max-width: 770px) {
     h1 {
@@ -272,9 +277,13 @@ li.empty {
     }
 
     .carousel-inner-div {
-        width: 60%;
-        height: auto;
+        max-width: 60%;
         margin: 0 auto;
+    }
+
+    .bottlework {
+        margin: 0px auto;
+        max-width: 90%;
     }
   }
 
