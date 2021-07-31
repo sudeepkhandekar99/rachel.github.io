@@ -196,7 +196,11 @@ li.empty {
     margin-left: 5px;
 }
 
-
+.carousel-inner-div {
+    width: 20%;
+    height: auto;
+    padding:10px;
+}
 
 @media only screen and (max-width: 480px) {
     h1 {
@@ -213,7 +217,7 @@ li.empty {
     
     nav ul li {
         display: flex;
-        margin: 10px auto;
+        margin: 30px auto;
         padding: 0;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -230,9 +234,7 @@ li.empty {
         padding: 0;
     }
 
-    header {
-        top:10px
-    }
+    
 
     .button {
         border: 1px solid black;
@@ -267,6 +269,11 @@ li.empty {
     
     .canvas-work {
         width: 70%;
+    }
+
+    .carousel-inner-div {
+        width: 100%;
+        height: auto;
     }
   }
 
